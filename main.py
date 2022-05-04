@@ -2,7 +2,7 @@ import discord
 import os
 from neuralintents import GenericAssistant
 
-TOKEN = 'OTcxMjQ5MTYyMTI3NTYwNzQ0.YnHwRQ.vgkGf2fbbBZcTqyV-HE_DsO-GuU'
+TOKEN = ''
 
 chatbot = GenericAssistant('intent.json')
 chatbot.train_model()
